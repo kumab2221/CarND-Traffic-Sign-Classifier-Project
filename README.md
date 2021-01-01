@@ -19,10 +19,21 @@ The goals / steps of this project are the following:
 ---
 - [Traffic Sign Classifier](./Traffic_Sign_Classifier.ipynb)
 - [Writeup](./writeup.md)
+- [Traffic Sign Classifier (HTML)](./Traffic_Sign_Classifier.html)
 
 ## Requirement
 ---
-If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go!   If not, you should install the starter kit to get started on this project.
+This project requires Python 3.8.5 and the following Python libraries installed:
+
+- jupyter 6.1.5
+- numpy 1.19.2
+- matplotlib 3.3.2
+- tensorflow 2.3.0
+
+When using the conda environment, please build a virtual environment with the following command.
+```
+conda env create -f tf230gpu.yml
+```
 
 ## Licence
 ---
